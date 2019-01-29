@@ -24,6 +24,11 @@ process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 process.env.SEED = process.env.SEED || 'semilla-secreta';
 
 // =======================
+// CLIENT_ID Id de cliente de google
+// =======================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '393390278611-hplp5eun8k1sj28otp3el4q5k3h8fibv.apps.googleusercontent.com';
+
+// =======================
 // BD Mongo
 // =======================
 
